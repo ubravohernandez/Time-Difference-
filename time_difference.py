@@ -33,4 +33,4 @@ end_time = datetime.datetime(year, month, day, end_hour, end_min)
 
 time_diff = (end_time - start_time).total_seconds()
 time_diff = round(time_diff/3600,2)
-print(time_diff)
+print(f"You worked {time_diff} hours.")
